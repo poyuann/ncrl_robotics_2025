@@ -1,0 +1,34 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/chunchih/NCRL/sim/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/chunchih/NCRL/sim/src/Env/apriltag_ros/apriltag_ros/include/**",
+        "/home/chunchih/NCRL/sim/src/Env/multirotor_geometry_control/gps/include/**",
+        "/home/chunchih/NCRL/sim/src/Env/multirotor_geometry_control/path_planner/include/**",
+        "/home/chunchih/NCRL/sim/src/Env/multirotor_geometry_control/mav_comm/mav_msgs/include/**",
+        "/home/chunchih/NCRL/sim/src/Env/multirotor_geometry_control/mav_comm/mav_planning_msgs/include/**",
+        "/home/chunchih/NCRL/sim/src/Env/multirotor_geometry_control/offb/include/**",
+        "/home/chunchih/NCRL/sim/src/Env/multirotor_geometry_control/plottest/include/**",
+        "/home/chunchih/NCRL/sim/src/realsense-ros/realsense2_camera/include/**",
+        "/home/chunchih/NCRL/sim/src/realsense_gazebo_plugin/include/**",
+        "/home/chunchih/NCRL/sim/src/Env/multirotor_geometry_control/rotors_simulator/rotors_control/include/**",
+        "/home/chunchih/NCRL/sim/src/Env/multirotor_geometry_control/rotors_simulator/rotors_gazebo_plugins/include/**",
+        "/home/chunchih/NCRL/sim/src/Env/multirotor_geometry_control/rotors_simulator/rotors_hil_interface/include/**",
+        "/home/chunchih/NCRL/sim/src/Env/multirotor_geometry_control/rotors_simulator/rotors_joy_interface/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
