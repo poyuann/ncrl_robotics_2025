@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="real_world_map">
+
+
+
+    <!-- Include your custom map model -->
+    <include>
+      <uri>model://map_satellite_24.787961_121.001371_100_100</uri>
+      <name>map_satellite_24.787961_121.001371_100_100</name>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+
+    <!-- Sun for lighting -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Physics settings -->
+    <physics name="default_physics" type="ode">
+      <gravity>0 0 -9.81</gravity>
+    </physics>
+    
+  </world>
+</sdf>

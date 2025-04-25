@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+        <node name="wildnav_ros" pkg="map_featurematcher" type="wildnav_ros.py" output="screen"></node>
+        <param name="map_dir" value="$(find map_featurematcher)/assets/map/"/>
+        <param name="result_dir" value="$(find map_featurematcher)/results/"/>
+</launch>
