@@ -144,7 +144,8 @@ class GeoPhotoDrone:
         if center != None and located:        
             loca_map = calculate_geo_pose(self.geo_images_list[satellite_map_index], center, features_mean, query_image.shape )
 
-            cv2.imwrite(rospy.get_param('result_dir','')  + photo_name + "_located.png", located_image)
+            # # if you wanna see result of match
+            # cv2.imwrite(rospy.get_param('result_dir','')  + photo_name + "_located.png", located_image)
 
 
             self.pose_msg.header.stamp = rospy.get_rostime()
