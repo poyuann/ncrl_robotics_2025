@@ -1,0 +1,3 @@
+[submodule "map_featurematcher/src/SuperGluePretrainedNetwork"]
+	path = map_featurematcher/src/SuperGluePretrainedNetwork
+	url = https://github.com/magicleap/SuperGluePretrainedNetwork.git
