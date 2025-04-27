@@ -4,8 +4,6 @@
 import csv
 import cv2
 import os
-import haversine as hs
-from haversine import Unit
 import superglue_utils
 import numpy as np
 import math
