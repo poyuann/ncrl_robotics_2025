@@ -59,5 +59,7 @@ python3 offb_node.py
 ```
 Vision-based map localization
 ```
+source ~/env/bin/activate
+
 roslaunch map_featurematcher vml.launch
 ```
