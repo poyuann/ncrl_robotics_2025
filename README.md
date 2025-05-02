@@ -63,3 +63,7 @@ source ~/env/bin/activate
 
 roslaunch map_featurematcher vml.launch
 ```
+measurement topic 
+```
+/vsnav_pose
+```
