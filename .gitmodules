@@ -1,3 +1,6 @@
-[submodule "map_featurematcher/src/SuperGluePretrainedNetwork"]
-	path = map_featurematcher/src/SuperGluePretrainedNetwork
+[submodule "map_featurematcher/src/superglue_lib"]
+	path = map_featurematcher/src/superglue_lib
+	url = https://github.com/magicleap/SuperGluePretrainedNetwork.git
+[submodule "superglue_lib"]
+	path = map_featurematcher/src/superglue_lib
 	url = https://github.com/magicleap/SuperGluePretrainedNetwork.git
