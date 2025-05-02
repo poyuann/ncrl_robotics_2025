@@ -63,6 +63,8 @@ source ~/env/bin/activate
 
 roslaunch map_featurematcher vml.launch
 ```
+the recommended altitude to ensure image scale fitting is 30 - 40
+
 measurement topic 
 ```
 /vsnav_pose
