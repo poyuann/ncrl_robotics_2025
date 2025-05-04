@@ -149,7 +149,6 @@ class GeoPhotoDrone:
             self.pose_msg.header.stamp = rospy.get_rostime()
             self.pose_msg.pose.position.x = float(loca_map[0])
             self.pose_msg.pose.position.y = float(loca_map[1])
-            self.pose_msg.pose.position.z = 40
 
             self.pose_pub.publish(self.pose_msg)
             # Save the calculated location for later comparison with the ground truth
