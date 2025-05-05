@@ -87,7 +87,7 @@ class GeoPhotoDrone:
             with self.photo_lock:
                 cv_image = self.bridge.imgmsg_to_cv2(image, "bgr8")
                 self.photo_before = cv_image
-                cv_image = self.rotate_image(cv_image, -90)
+                cv_image = self.rotate_image(cv_image, self.flight_yaw-90)
                 self.photo = cv_image
                 # cv2.imshow("test", cv_image)
                 self.wild_nav()
